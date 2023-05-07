@@ -1,12 +1,14 @@
 import React from "react";
-import "./styles/App.css";
+import NavBar from "./components/Navbar";
 
 function App() {
     return (
-        <div className="App">
-            <h2>this is THE POOL</h2>
-        </div>
+        <html lang="en">
+            <body className="min-h-screen w-full bg-indigo-200 font-sans">
+                <NavBar />
+                <div className="m-10">POOL home.</div>;
+            </body>
+        </html>
     );
 }
-
 export default App;
